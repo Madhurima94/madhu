@@ -1,4 +1,4 @@
-language: android
+language: ruby
 jdk: oraclejdk8
 env:
   global:
