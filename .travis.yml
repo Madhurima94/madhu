@@ -113,9 +113,9 @@ before_script:
 
 
 
-script:
+#script:
 
-- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
+#- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
 
 
 
