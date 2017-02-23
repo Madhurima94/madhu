@@ -19,13 +19,13 @@ before_cache:
 
 
 
-cache:
+#cache:
 
- directories:
+ #directories:
 
- - $HOME/.gradle/caches/
+ #- $HOME/.gradle/caches/
 
- - $HOME/.gradle/wrapper/
+# - $HOME/.gradle/wrapper/
 
 
 
