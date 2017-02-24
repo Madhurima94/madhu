@@ -1,5 +1,5 @@
 
-# Tutorial here: https://medium.com/@harmittaa/travis-ci-android-example-357f6e632fc4
+
 
 
 
@@ -25,7 +25,7 @@ env:
 
  - ANDROID_BUILD_TOOLS=24.0.2
 
- - ADB_INSTALL_TIMEOUT=5 # minutes
+ - ADB_INSTALL_TIMEOUT=5 
 
  
 
@@ -47,9 +47,9 @@ android:
 
  - extra-google-m2repository
 
- - extra-android-m2repository # for design library
+ - extra-android-m2repository 
 
- - addon-google_apis-google-19 # google play services
+ - addon-google_apis-google-19 
 
  - sys-img-armeabi-v7a-addon-google_apis-google-$ANDROID_API_LEVEL
 
@@ -78,10 +78,7 @@ before_install:
 
 - chmod +x gradlew
 
-- ./gradlew dependencies || true # DON'T ADD unless you are getting "Install missing components using SDK manager"
-
-#Source: https://medium.com/@oldergod/constraint-layout-and-circleci-travis-d50342696d2
-
+- ./gradlew dependencies || true 
 
 
 before_script:
